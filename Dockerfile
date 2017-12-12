@@ -27,3 +27,5 @@ RUN /bin/bash -lc "pyenv install 2.7.14 \
     && pyenv install 3.4.7 \
     && pyenv install 3.5.4 \
     && pyenv install 3.6.3"
+
+RUN /bin/bash -lc "pyenv global 2.7.14 3.4.7 3.5.4 3.6.3"
